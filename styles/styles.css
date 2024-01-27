@@ -354,11 +354,13 @@ p {
     width: 90%;
     height: 500px;
 }
-.deals-btn{
+
+.deals-btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .btn-deals {
     color: #FFF;
     text-align: center;
@@ -369,8 +371,9 @@ p {
     border-radius: 8px;
     background: #FF5400;
 }
+
 /* simple perfect place section style */
-.perfect-place{
+.perfect-place {
     display: flex;
     gap: 24px;
     margin: 40px 120px 30px;
@@ -378,17 +381,106 @@ p {
     align-items: center;
     justify-content: center;
 }
-.perfect-place-video video{
+
+.perfect-place-video video {
     width: 500px;
     height: 100%;
 }
-.perfect-place-container h1{
+
+.perfect-place-container h1 {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
 }
-.perfect-place-container ul{
+
+.perfect-place-container ul {
     margin-bottom: 30px;
+}
+
+/* newsletter section style */
+.newsletter-container {
+    margin: 20px 120px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 30px;
+}
+
+.newsletter {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 340px;
+}
+
+.input-and-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input-and-btn input {
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-left: 20px;
+    border: none;
+}
+
+.newsletter-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 100%;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.newsletter-pic {
+    margin-left: 50px;
+}
+
+
+.pic-content h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pic-content h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.pic-content {
+    border-radius: 16px;
+    background-color: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    position: relative;
+    left: 340px;
+    bottom: 200px;
+}
+
+/* footer section style */
+footer {
+    padding: 20px 230px;
+    text-align: center;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    line-height: 20px;
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+footer hr,small{
+    margin-top: 50px;
 }
 
 /* responsive for small device */
